@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header, 
+footer {
+    height: 70px;
+    background-color: rgba(196, 196, 196, 0.75);
+}
+
+main {
+    background-color: #E5E5E5;
+}
+
+.heading,
+.content, 
+.bottom {
+    width: 1025px;
+    margin: 0 auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 8px 0 8px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 64px 0 115px;
+}
+
+.search {
+    width: 295px;
+    height: 45px;
+    margin: 11px 0 11px;
+    border: none;
+    text-align: center;
+}
+
+.input {
+    position: relative;
+    z-index: 1;
+}
+
+.ellipse {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    z-index: 2;
+}
+
+.wrap-img {
+    width: 294px;
+    height: 301px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.wrapper {
+    width: 294px;
+    height: 301px;
+    background-image: linear-gradient(rgba(120, 94, 73, 0.55), rgba(120, 94, 73, 0.55)), url(img/bed.png);
+}
+
+.first {
+    background-image: url('img/sofa_white.png');
+}
+
+.second, .fourth {
+    background-image: url('img/light.png');
+}
+
+.fifth {
+    background-image: url('img/sofa_black.png');
+}
+
+.box {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 1;
+}
+
+.star {
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    z-index: 2;
+}
+
+.description {
+    background-color: #F4F5F7;
+    width: 295px;
+    height: 145px;
+    padding: 16px 16px 30px;
+}
+
+.name, .price {
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.info, .price-before {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B0B0B0;;
+}
+
+.price-before {
+    text-decoration: line-through;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin: 23px 0;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 18px;
+    color: #3A3A3A;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.networks {
+    margin: 12px 0;
+}
+
+.icon {
+    margin-right: 17px;
+}
+
+.icon:hover {
+    cursor: pointer;
+	box-shadow: 0 0 0 3px #f51212;
+}
+
+.telegram {
+    margin-bottom: 5px;
+}
